@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # douding
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
@@ -46,3 +47,6 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+=======
+# douding
+>>>>>>> 803c55040efa8e2385a6dfc29fe1f8035083f661

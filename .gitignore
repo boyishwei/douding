@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 .bundle
 .sass-cache
 _site
 Gemfile.lock
+=======
+_site/
+.sass-cache/
+.jekyll-metadata
+>>>>>>> 803c55040efa8e2385a6dfc29fe1f8035083f661

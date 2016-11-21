@@ -1,16 +1,34 @@
-<<<<<<< HEAD
 # douding
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
 TODO: Delete this and the text above, and describe your gem
 
+
+## How to clone git repository to local
+git clone https://github.com/boyishwei/douding
+
+## How to build douding theme
+gem build douding.gemspec
+
+## How to install a local douding gem
+gem install ./douding-0.2.0.gem 
+
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
+Create a new jekyll site
+```ruby
+jekyll new <you site name>
+```
 
+Add this line to your Jekyll site's Gemfile:
 ```ruby
 gem "douding"
+```
+
+And comment out below line:
+```ruby
+#gem 'minima'
 ```
 
 And add this line to your Jekyll site:
@@ -26,6 +44,13 @@ And then execute:
 Or install it yourself as:
 
     $ gem install douding
+
+Startup you jekyll site
+```ruby
+jekyll s
+```
+
+
 
 ## Usage
 
@@ -49,4 +74,3 @@ The theme is available as open source under the terms of the [MIT License](http:
 
 =======
 # douding
->>>>>>> 803c55040efa8e2385a6dfc29fe1f8035083f661

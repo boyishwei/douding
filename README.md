@@ -5,15 +5,20 @@ Welcome to your new Jekyll theme! In this directory, you'll find the files you n
 TODO: Delete this and the text above, and describe your gem
 
 
-## How to clone git repository to local
-git clone https://github.com/boyishwei/douding
+## Clone git repository to local
+git clone git@github.com:boyishwei/douding.git
 
-## How to build douding theme
+## How to perform local build 
+
+Local build
+```ruby
 gem build douding.gemspec
+```
 
-## How to install a local douding gem
+Local install gem
+```ruby
 gem install ./douding-0.2.0.gem 
-
+```
 ## Installation
 
 Create a new jekyll site
